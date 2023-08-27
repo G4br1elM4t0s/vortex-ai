@@ -21,10 +21,10 @@ export const Navbar = () => {
       <div className="flex items-center">
         <MobileSideBar />
         <Link href="/">
-          <h1 className={cn("hidden md:block text-xl md:text-3xl font-bold",
+          <h1 className={cn("hidden md:block text-xl text-[#5E0097] md:text-3xl font-bold",
             font.className
           )}>
-            Voterx.Ai
+            Voterx<span className="text-white" >.Ai</span>
           </h1>
 
         </Link>
